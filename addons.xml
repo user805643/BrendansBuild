@@ -8,7 +8,7 @@
                    name="BrendansBuild">
             <info compressed="false">https://user805643.github.io/BrendansBuild/addons.xml</info>
             <checksum>https://user805643.github.io/BrendansBuild/addons.xml.md5</checksum>
-            <datadir zip="true">https://user805643.github.io/BrendansBuild/zips/repository.brendansbuild/</datadir>
+            <datadir zip="true">https://user805643.github.io/BrendansBuild/zips/</datadir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary lang="en_GB">BrendansBuild Kodi repository</summary>
