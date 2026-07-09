@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-    <addon id="repository.brendansbuild"
-           name="BrendansBuild"
-           version="1.0.2"
-           provider-name="user805643">
-        <extension point="xbmc.addon.repository"
-                   name="BrendansBuild">
+<addon id="repository.brendansbuild"
+       name="BrendansBuild"
+       version="1.0.3"
+       provider-name="user805643">
+    <extension point="xbmc.addon.repository" name="BrendansBuild">
+        <dir minversion="21.0.0">
             <info compressed="false">https://raw.githubusercontent.com/user805643/BrendansBuild/main/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/user805643/BrendansBuild/main/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/user805643/BrendansBuild/main/zips/</datadir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB">BrendansBuild Kodi repository</summary>
-            <description lang="en_GB">Personal Kodi repository for Brendan build installs and updates.</description>
-            <platform>all</platform>
-        </extension>
-    </addon>
-</addons>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">BrendansBuild Kodi repository</summary>
+        <description lang="en_GB">Personal Kodi repository for Brendan build installs and updates.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
