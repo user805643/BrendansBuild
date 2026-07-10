@@ -20,7 +20,7 @@
 
     <addon id="plugin.program.brendanswizard"
            name="Brendans Wizard"
-           version="1.0.0"
+           version="1.0.1"
            provider-name="Brendan Filby">
         <extension point="xbmc.python.pluginsource" library="default.py">
             <provides>executable</provides>
