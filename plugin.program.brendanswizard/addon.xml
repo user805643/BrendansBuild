@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.brendanswizard" name="[COLOR gold]Brendans[/COLOR] Wizard" version="1.0.4" provider-name="Brendan">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR gold]Brendans Fully Loaded Bingie System[/COLOR]</summary>
+        <description lang="en">A Fully Loaded Bingie System That Is Pre-Configured And Features SIMKL, RealDebrid and RedLight.</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://user805643.github.io/BrendansBuild/</source>
+<news>
+1.0.4
+ - Refreshed add-on metadata and branding
+ - Updated gold title styling and artwork references
+ - Improved repository listing compatibility for icon and fanart
+
+1.0.3
+ - Updated add-on author display to Brendan
+ - Refined add-on branding and icon setup
+
+1.0.2
+ - Updated branding and artwork
+ - Added custom icon and fanart
+
+1.0.1
+ - Fixed startup issue caused by missing requests module
+ - Added fallback URL handling bypass for compatibility
+
+1.0.0
+ - Initial Brendan custom wizard release
+</news>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
