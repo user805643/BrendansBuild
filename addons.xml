@@ -19,7 +19,7 @@
     </addon>
 
     <addon id="plugin.program.brendanswizard"
-           name="[COLOR gold]Brendans Wizard[/COLOR]"
+           name="[COLOR gold]Brendans[/COLOR] Wizard"
            version="1.0.3"
            provider-name="Brendan">
         <requires>
