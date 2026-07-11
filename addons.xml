@@ -59,8 +59,8 @@
  - Initial release of BrendansWizard
 </news>
             <assets>
-                <icon>https://plugin.program.brendanswizard/icon.png</icon>
-                <fanart>plugin.program.brendanswizard/fanart.png</fanart>
+                <icon>https://icon.png</icon>
+                <fanart>fanart.png</fanart>
             </assets>
         </extension>
     </addon>
