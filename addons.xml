@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
     <addon id="repository.brendansbuild"
-           name="BrendansBuild"
-           version="1.0.5"
+           name="[COLOR blue]BrendansBuild[/COLOR]"
+           version="1.0.6"
            provider-name="user805643">
         <extension point="xbmc.addon.repository" name="BrendansBuild">
             <dir minversion="21.0.0">
@@ -12,7 +12,7 @@
             </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB">BrendansBuild Kodi repository</summary>
+            <summary lang="en_GB">[COLOR blue]BrendansBuild Kodi repository[/COLOR]</summary>
             <description lang="en_GB">Personal Kodi repository for Brendan build installs and updates.</description>
             <platform>all</platform>
         </extension>
@@ -37,7 +37,10 @@
             <summary lang="en_GB">[COLOR gold]Brendans Fully Loaded Bingie System[/COLOR]</summary>
             <description lang="en_GB">A fully loaded Kodi wizard for installing and maintaining Brendans Bingie setup.</description>
             <platform>all</platform>
-            <news>1.0.5
+            <news>1.0.6
+- BrendansBuild icon and fanart change
+
+1.0.5
  - Updated wizard branding and gold title styling
  - Moved icon and fanart references to root-level artwork files
  - Refreshed repository metadata and package versioning
