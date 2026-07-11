@@ -59,7 +59,7 @@
  - Initial release of BrendansWizard
 </news>
             <assets>
-                <icon>https://icon.png</icon>
+                <icon>icon.png</icon>
                 <fanart>fanart.png</fanart>
             </assets>
         </extension>
