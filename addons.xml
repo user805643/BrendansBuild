@@ -2,7 +2,7 @@
 <addons>
     <addon id="repository.brendansbuild"
            name="BrendansBuild"
-           version="1.0.3"
+           version="1.0.4"
            provider-name="user805643">
         <extension point="xbmc.addon.repository" name="BrendansBuild">
             <dir minversion="21.0.0">
@@ -59,8 +59,8 @@
  - Initial release of BrendansWizard
 </news>
             <assets>
-                <icon>https://raw.githubusercontent.com/user805643/BrendansBuild/main/icon.png</icon>
-                <fanart>raw.githubusercontent.com/user805643/BrendansBuild/main/fanart.png</fanart>
+                <icon>https://plugin.program.brendanswizard/icon.png</icon>
+                <fanart>plugin.program.brendanswizard/fanart.png</fanart>
             </assets>
         </extension>
     </addon>
