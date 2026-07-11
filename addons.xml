@@ -2,7 +2,7 @@
 <addons>
     <addon id="repository.brendansbuild"
            name="BrendansBuild"
-           version="1.0.4"
+           version="1.0.5"
            provider-name="user805643">
         <extension point="xbmc.addon.repository" name="BrendansBuild">
             <dir minversion="21.0.0">

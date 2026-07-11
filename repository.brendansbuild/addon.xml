@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.brendansbuild"
        name="BrendansBuild"
-       version="1.0.4"
+       version="1.0.5"
        provider-name="user805643">
     <extension point="xbmc.addon.repository" name="BrendansBuild">
         <dir minversion="21.0.0">
@@ -14,5 +14,9 @@
         <summary lang="en_GB">BrendansBuild Kodi repository</summary>
         <description lang="en_GB">Personal Kodi repository for Brendan build installs and updates.</description>
         <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
     </extension>
 </addon>
