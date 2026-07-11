@@ -18,22 +18,40 @@
         </extension>
     </addon>
 
-    <addon id="plugin.program.brendanswizard"
-           name="Brendans Wizard"
-           version="1.0.1"
-           provider-name="Brendan Filby">
-        <extension point="xbmc.python.pluginsource" library="default.py">
-            <provides>executable</provides>
-        </extension>
-        <extension point="xbmc.service" library="startup.py" start="startup" />
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB">Brendans Wizard</summary>
-            <description lang="en_GB">Maintenance tools and Brendan build installer.</description>
-            <platform>all</platform>
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.png</fanart>
-            </assets>
-        </extension>
-    </addon>
-</addons>
+   <addon id="plugin.program.brendanswizard"
+       name="Brendans Wizard"
+       version="1.0.2"
+       provider-name="Brendan Filby">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Brendans Fully Loaded Bingie System</summary>
+        <description lang="en_GB">A fully loaded Kodi wizard for installing and maintaining Brendans Bingie setup.</description>
+        <platform>all</platform>
+        <news>
+1.0.2
+ - Updated branding and artwork
+ - Added custom icon and fanart
+
+1.0.1
+ - Fixed startup issue caused by missing requests module
+ - Added fallback URL handling bypass for compatibility
+
+1.0.0
+ - Initial Brendan custom wizard release
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
