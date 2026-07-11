@@ -19,7 +19,7 @@
     </addon>
 
     <addon id="plugin.program.brendanswizard"
-           name="[COLOR gold]Brendans Wizard"
+           name="[COLOR gold]Brendans Wizard[/COLOR]"
            version="1.0.3"
            provider-name="Brendan">
         <requires>
@@ -34,7 +34,7 @@
         </extension>
         <extension point="xbmc.service" library="startup.py" start="startup" />
         <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB">Brendans Fully Loaded Bingie System</summary>
+            <summary lang="en_GB">[COLOR gold]Brendans Fully Loaded Bingie System[/COLOR]</summary>
             <description lang="en_GB">A fully loaded Kodi wizard for installing and maintaining Brendans Bingie setup.</description>
             <platform>all</platform>
 <news>
