@@ -59,8 +59,8 @@
  - Initial release of BrendansWizard
 </news>
             <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.png</fanart>
+                <icon>https://raw.githubusercontent.com/user805643/BrendansBuild/main/icon.png</icon>
+                <fanart>raw.githubusercontent.com/user805643/BrendansBuild/main/fanart.png</fanart>
             </assets>
         </extension>
     </addon>
