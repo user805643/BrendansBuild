@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.brendansbuild"
        name="[COLOR blue]Brendans[/COLOR]Build"
-       version="1.0.6"
+       version="1.0.7"
        provider-name="user805643">
     <extension point="xbmc.addon.repository" name="BrendansBuild">
         <dir minversion="21.0.0">
@@ -11,12 +11,12 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">[COLOUR blue]BrendansBuild Kodi repository[/COLOR]</summary>
+        <summary lang="en_GB">[COLOR blue]BrendansBuild Kodi repository[/COLOR]</summary>
         <description lang="en_GB">Personal Kodi repository for Brendan build installs and updates.</description>
         <platform>all</platform>
         <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
+            <icon>icon2.png</icon>
+            <fanart>fanart2.png</fanart>
         </assets>
     </extension>
 </addon>
