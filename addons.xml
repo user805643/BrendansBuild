@@ -20,7 +20,7 @@
 
 <addon id="plugin.program.brendanswizard"
        name="[COLOR gold]Brendans[/COLOR] Wizard"
-       version="1.0.4"
+       version="1.0.5"
        provider-name="Brendan">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
