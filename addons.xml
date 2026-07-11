@@ -19,9 +19,9 @@
     </addon>
 
     <addon id="plugin.program.brendanswizard"
-           name="Brendans Wizard"
-           version="1.0.2"
-           provider-name="Brendan Filby">
+           name="[COLOR gold]Brendans Wizard"
+           version="1.0.3"
+           provider-name="Brendan">
         <requires>
             <import addon="xbmc.python" version="3.0.0" />
             <import addon="script.module.requests" />
@@ -37,7 +37,11 @@
             <summary lang="en_GB">Brendans Fully Loaded Bingie System</summary>
             <description lang="en_GB">A fully loaded Kodi wizard for installing and maintaining Brendans Bingie setup.</description>
             <platform>all</platform>
-            <news>
+<news>
+1.0.3
+ - Updated add-on author display to Brendan
+ - Refined add-on branding and icon setup
+
 1.0.2
  - Updated branding and artwork
  - Added custom icon and fanart
@@ -48,7 +52,7 @@
 
 1.0.0
  - Initial Brendan custom wizard release
-            </news>
+</news>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.png</fanart>
